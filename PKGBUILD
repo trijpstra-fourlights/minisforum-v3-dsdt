@@ -3,11 +3,11 @@
 
 pkgname=minisforum-v3-dsdt
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Patch ACPI DSDT to support Minisforum v3 accelerometer"
 arch=('any')
-url=''
-license=('custom')
+url='https://github.com/trijpstra-fourlights/minisforum-v3-dsdt'
+license=('MIT')
 makedepends=('iasl')
 depends=('mkinitcpio')
 
